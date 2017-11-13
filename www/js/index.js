@@ -1,7 +1,15 @@
 $(document).on("pagecreate","#pageone",function(){
+    
   $('#submitButton').on("click", function(){
     submitText();
-  });            
+  });      
+    
+   // shake listener to call submitText 
+
+    $('#shakeDevice').on("shake",function(){submitText();
+                                           
+                                           });
+
 });            
 
 
