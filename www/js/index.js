@@ -21,6 +21,8 @@ function submitText() {
       //  alert("Hello");
          $("#resultText").text("True");
         navigator.notification.beep(1);
+        vibrate for 200 milliseconds
+navigator.vibrate(200,500);
     }
     
     else {
@@ -28,6 +30,8 @@ function submitText() {
        // alert("Bye");
          $("#resultText").text("False");
         navigator.notification.beep(2);
+        vibrate for 200 milliseconds
+navigator.vibrate(200,300);
     }
     
     
@@ -43,3 +47,4 @@ function storeValue(key, value) {
     
 	//add some code to store the key-value pair in persistant storage 
 }
+
