@@ -20,12 +20,14 @@ function submitText() {
         
       //  alert("Hello");
          $("#resultText").text("True");
+        navigator.notification.beep(1);
     }
     
     else {
         
        // alert("Bye");
          $("#resultText").text("False");
+        navigator.notification.beep(2);
     }
     
     
