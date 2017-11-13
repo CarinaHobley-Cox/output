@@ -21,7 +21,7 @@ function submitText() {
       //  alert("Hello");
          $("#resultText").text("True");
         navigator.notification.beep(1);
-        vibrate for 200 milliseconds
+        //vibrate for 200 milliseconds
 navigator.vibrate(200,500);
     }
     
@@ -30,7 +30,7 @@ navigator.vibrate(200,500);
        // alert("Bye");
          $("#resultText").text("False");
         navigator.notification.beep(2);
-        vibrate for 200 milliseconds
+        //vibrate for 200 milliseconds
 navigator.vibrate(200,300);
     }
     
